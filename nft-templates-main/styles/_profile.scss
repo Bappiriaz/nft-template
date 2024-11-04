@@ -1,0 +1,225 @@
+.profile_bg{
+    /* Set a specific height */
+    
+
+    /* Background image */
+    background-image: url('../images/profile.png');
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+
+    /* Other background properties */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width:100%;
+  }
+
+  .orbitary{
+
+    display:flex;
+  }
+
+  .orbit_header{
+
+    h2{
+
+        font-family: Work Sans;
+        font-size: 51px;
+        color:#FFFFFF;
+    }
+
+    P{
+        font-family: Work Sans;
+        font-size: 22px;
+       
+        color:#858584;
+
+
+    }
+  }
+
+
+
+  .orbit_by{
+    P{
+        font-family: Space Mono;
+        font-size: 22px;
+        font-weight: bold;
+        color:#858584;
+
+
+    }
+
+  }
+  
+  .by_icon {
+    display:flex;
+    gap:6px;
+    align-items: center;
+
+    
+    p{
+        font-family: Work Sans;
+        font-size: 22px;
+        color:#FFFFFF;
+    }
+
+
+    }
+  
+    .orbit_det{
+     width:60%;
+    
+     p{
+        font-family: Work Sans;
+        font-size: 22px;
+        font-weight:Regular;
+        color:#FFFFFF;
+
+     }
+
+     h3{
+
+        font-family: Space Mono;
+        font-size: 22px;
+        font-weight: bold;
+        color:#858584;
+      }
+    }
+
+    .orbit_detail{
+
+        h2{
+       
+            font-family: Space Mono;
+            font-size: 22px;
+            font-weight: bold;
+            color:#858584;
+
+        }
+    }
+
+    .orbit_icon{
+        display:flex;
+        align-items: center;
+        gap:5px;
+
+        p{
+
+            font-family: Work Sans;
+            font-size: 22px;
+            font-weight:Regular;
+            color:#FFFFFF;
+    
+
+
+        }
+    }
+
+.tags_area{
+
+    h2{
+        font-family: Work Sans;
+        font-size: 22px;
+        color:#858584;
+       
+    }
+}
+
+.tags_button{
+  display:flex;
+ 
+  gap:10px;
+  margin-top: 10px;
+button{
+    padding:12px 21px;
+    background-color: #3B3B3B;
+    font-family: Work Sans;
+        font-size: 22px;
+        color:#FFFFFF;
+        border-radius: 20px;
+        outline: none;
+        border-style: none;
+}
+}
+
+
+.orbit_areas{
+    background-color:#3B3B3B;
+    padding:20px;
+    border-radius: 20px;
+
+    h3{
+        font-family: Space Mono;
+        font-size: 12px;
+        font-weight: Regular;
+        color:#FFFFFF;
+
+    }
+
+    P{
+        font-family: Space Mono;
+        font-size: 38px;
+        font-weight: bold;
+        color:#FFFFFF;
+
+    }
+
+
+}
+
+.clock_det{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    span{
+        font-family: Space Mono;
+        font-size: 12px;
+        font-weight:Regular;
+        color:#FFFFFF;
+
+
+    }
+
+   
+}
+
+.auctions{
+ display:flex;
+ align-items: center;
+ justify-content: center;
+ button{
+
+    padding:22px 80px;
+    background-color: blueviolet;
+    color:#FFFFFF;
+    outline:none;
+    border-style: none;
+    font-family: Work Sans;
+    font-size: 16px;
+    border-radius: 20px;
+ 
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .container{
+
+     width:550px;
+    
+    }
+
+ .tags_button{
+    flex-direction: column;
+    button{
+        padding:12px 25px;
+    }
+ }
+
+}

@@ -1,0 +1,163 @@
+.market_tab{
+    margin-top: 40px;
+    display:flex;
+   text-align: center;
+   justify-content: space-around;
+  
+   a{
+    font-family: Work Sans;
+    font-size:  22px;
+    color:#858584;
+
+    span{
+        font-family: Space Mono;
+        font-size:  16px;
+        padding:5px;
+        background-color: #3B3B3B;
+        color:#FFFFFF;
+        border-radius: 20px;
+       
+     
+
+    }
+
+    span:hover{
+        background-color: #858584;
+    
+       }
+
+   }
+
+   a:hover{
+
+    color:#FFFFFF
+   }
+
+ 
+
+}
+
+.market_area{
+
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 30px;
+
+
+
+}
+.market_area:hover{
+ 
+    border-bottom: 3px solid #858584;
+  
+}
+
+.market_header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    border: 1px solid #858584;
+    border-radius: 20px;
+}
+
+.header_left{
+    display:flex;
+    gap:25px;
+
+    h3{
+        font-family:Space Mono;
+        font-size:16px;
+        color:#FFFFFF;
+        font-weight:Regular;
+
+    }
+
+}
+
+
+.header_right{
+    display:flex;
+    gap:100px;
+    margin-right: 100px;
+
+    h3{
+        font-family:Space Mono;
+        font-size:16px;
+        color:#FFFFFF;
+        font-weight:Regular;
+
+    }
+
+}
+
+.seller_detail{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    background-color:#3B3B3B;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.nft_seller_img{
+    display:flex;
+    gap:25px;
+    align-items: center;
+
+    a{
+   
+   padding:4px 9px;
+   background-color: #2B2B2B;
+   text-align: center;
+   font-family:Space Mono;
+        font-size:16px;
+        color:#FFFFFF;
+        font-weight:Regular;
+        border-radius:100px;
+
+    }
+
+    h2{
+        font-family:Work Sans;
+        font-size:22px;
+        color:#FFFFFF;
+        font-weight:SemiBold;
+
+    }
+
+}
+
+.nft_seller_contents{
+    display:flex;
+    gap:100px;
+    margin-right: 100px;
+a{
+    font-family:Space Mono;
+    font-size:16px;
+  
+    font-weight:Regular;
+    color:#00AC4F;
+}
+h2{
+    font-family:Space Mono;
+    font-size:16px;
+  
+    font-weight:Regular;
+   color:#FFFFFF
+
+
+}
+
+p{
+
+    font-family:Space Mono;
+    font-size:16px;
+  
+    font-weight:Regular;
+   color:#FFFFFF
+}
+
+}
